@@ -7,6 +7,10 @@
 
 function updateText(){
 	if (jQuery){
+		
+		var liList = $("ul").text();
+		$("#ulContents").text("Previous contents: " + liList);
+
 		$("h1").text("My favorite Candy");
 		$("li").text("M and Ms");
 	}
