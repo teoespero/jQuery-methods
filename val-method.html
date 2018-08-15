@@ -11,24 +11,28 @@
 <html>
 	<head>	
 			<link href="normalize.css" rel="stylesheet" type="text/css">
+			<link href="custom.css" rel="stylesheet" type="text/css">
 			<meta charset="utf-8">
 			<title>teoespero.com | Javascript Programming - JQuery Methods</title>
 			<meta name="description" content="">
 			<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
 			<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   			<meta name="author" content="teoespero">
+  
 	</head>
 	<body>
-		<h1>jQuery Methods Demo Page</h1>
-		<ul>
-			<li>val()</li>
-			<li><a href="text-method.html">text()</a></li>
-			<li><a href="attr-method.html">attr()</a></li>
-			<li><a href="html-method.html">html()</a></li>
-			<li><a href="val-method.html">val()</a></li>
-			<li>addClass()</li>
-			<li>removeClass()</li>
-			<li>toggleClass()</li>
-		</ul>
+		<h1>Cars - val() method</h1>
+
+		<select id="cars">
+			<option value="volvo">Select a car</option>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select>
+		<button>Reload</button>
+		<p id="userChoice"></p>
+
+		<script type="text/javascript" src="val-method.js"></script>
 	</body>
 </html>

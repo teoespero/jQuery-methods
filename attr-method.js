@@ -5,7 +5,7 @@
 // #Web-Dev-Bootcamp-Udemy
 
 
-function showAttr(){
+$("#individual").click(function (){
 	// make sure jQuery is connect
 	if (jQuery){
 		
@@ -37,10 +37,10 @@ function showAttr(){
 	else {
 		alert("jQuery is not defined");	
 	}
-}
+});
 
 
-function showAttr02(){
+$("#oneTime").click(function (){
 	// make sure jQuery is connect
 	if (jQuery){
 		
@@ -70,8 +70,8 @@ function showAttr02(){
 	else {
 		alert("jQuery is not defined");	
 	}
-}
+});
 
-function reload(){
+$("#reload").click(function (){
     location.reload();
-}
+});
