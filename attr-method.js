@@ -71,3 +71,7 @@ function showAttr02(){
 		alert("jQuery is not defined");	
 	}
 }
+
+function reload(){
+    location.reload();
+}
